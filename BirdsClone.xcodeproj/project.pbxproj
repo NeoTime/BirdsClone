@@ -15,6 +15,7 @@
 		9492457D2253BBB600E9D52C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9492457C2253BBB600E9D52C /* Assets.xcassets */; };
 		949245802253BBB600E9D52C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9492457E2253BBB600E9D52C /* LaunchScreen.storyboard */; };
 		949245882253C6A100E9D52C /* BirdTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 949245872253C6A100E9D52C /* BirdTileSet.sks */; };
+		949245922253E2E300E9D52C /* GameCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949245912253E2E300E9D52C /* GameCamera.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9492457F2253BBB600E9D52C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		949245812253BBB600E9D52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		949245872253C6A100E9D52C /* BirdTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BirdTileSet.sks; sourceTree = "<group>"; };
+		949245912253E2E300E9D52C /* GameCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCamera.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +62,66 @@
 		9492456E2253BBB300E9D52C /* BirdsClone */ = {
 			isa = PBXGroup;
 			children = (
+				949245902253E26600E9D52C /* CustomNodes */,
+				9492458F2253DBD200E9D52C /* TileSets */,
+				9492458E2253DB2F00E9D52C /* UI */,
+				9492458C2253DA6D00E9D52C /* Scenes */,
+				9492458B2253DA4900E9D52C /* ViewController */,
+				9492458A2253DA2700E9D52C /* Template */,
+			);
+			path = BirdsClone;
+			sourceTree = "<group>";
+		};
+		9492458A2253DA2700E9D52C /* Template */ = {
+			isa = PBXGroup;
+			children = (
 				9492456F2253BBB300E9D52C /* AppDelegate.swift */,
+				949245812253BBB600E9D52C /* Info.plist */,
+			);
+			name = Template;
+			sourceTree = "<group>";
+		};
+		9492458B2253DA4900E9D52C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				949245772253BBB400E9D52C /* GameViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		9492458C2253DA6D00E9D52C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
 				949245712253BBB300E9D52C /* GameScene.sks */,
 				949245752253BBB300E9D52C /* GameScene.swift */,
-				949245772253BBB400E9D52C /* GameViewController.swift */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		9492458E2253DB2F00E9D52C /* UI */ = {
+			isa = PBXGroup;
+			children = (
 				949245792253BBB400E9D52C /* Main.storyboard */,
 				9492457C2253BBB600E9D52C /* Assets.xcassets */,
 				9492457E2253BBB600E9D52C /* LaunchScreen.storyboard */,
-				949245812253BBB600E9D52C /* Info.plist */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		9492458F2253DBD200E9D52C /* TileSets */ = {
+			isa = PBXGroup;
+			children = (
 				949245872253C6A100E9D52C /* BirdTileSet.sks */,
 			);
-			path = BirdsClone;
+			name = TileSets;
+			sourceTree = "<group>";
+		};
+		949245902253E26600E9D52C /* CustomNodes */ = {
+			isa = PBXGroup;
+			children = (
+				949245912253E2E300E9D52C /* GameCamera.swift */,
+			);
+			name = CustomNodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +199,7 @@
 			files = (
 				949245762253BBB300E9D52C /* GameScene.swift in Sources */,
 				949245782253BBB400E9D52C /* GameViewController.swift in Sources */,
+				949245922253E2E300E9D52C /* GameCamera.swift in Sources */,
 				949245702253BBB300E9D52C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
