@@ -16,6 +16,8 @@
 		949245802253BBB600E9D52C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9492457E2253BBB600E9D52C /* LaunchScreen.storyboard */; };
 		949245882253C6A100E9D52C /* BirdTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 949245872253C6A100E9D52C /* BirdTileSet.sks */; };
 		949245922253E2E300E9D52C /* GameCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949245912253E2E300E9D52C /* GameCamera.swift */; };
+		949245942254183900E9D52C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949245932254183900E9D52C /* Configuration.swift */; };
+		9492459622541EC400E9D52C /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9492459522541EC400E9D52C /* Bird.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		949245812253BBB600E9D52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		949245872253C6A100E9D52C /* BirdTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BirdTileSet.sks; sourceTree = "<group>"; };
 		949245912253E2E300E9D52C /* GameCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCamera.swift; sourceTree = "<group>"; };
+		949245932254183900E9D52C /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		9492459522541EC400E9D52C /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 			children = (
 				9492456F2253BBB300E9D52C /* AppDelegate.swift */,
 				949245812253BBB600E9D52C /* Info.plist */,
+				949245932254183900E9D52C /* Configuration.swift */,
 			);
 			name = Template;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				949245912253E2E300E9D52C /* GameCamera.swift */,
+				9492459522541EC400E9D52C /* Bird.swift */,
 			);
 			name = CustomNodes;
 			sourceTree = "<group>";
@@ -198,8 +204,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				949245762253BBB300E9D52C /* GameScene.swift in Sources */,
+				949245942254183900E9D52C /* Configuration.swift in Sources */,
 				949245782253BBB400E9D52C /* GameViewController.swift in Sources */,
 				949245922253E2E300E9D52C /* GameCamera.swift in Sources */,
+				9492459622541EC400E9D52C /* Bird.swift in Sources */,
 				949245702253BBB300E9D52C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
