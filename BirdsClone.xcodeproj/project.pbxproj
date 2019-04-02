@@ -14,6 +14,7 @@
 		9492457B2253BBB400E9D52C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949245792253BBB400E9D52C /* Main.storyboard */; };
 		9492457D2253BBB600E9D52C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9492457C2253BBB600E9D52C /* Assets.xcassets */; };
 		949245802253BBB600E9D52C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9492457E2253BBB600E9D52C /* LaunchScreen.storyboard */; };
+		949245882253C6A100E9D52C /* BirdTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 949245872253C6A100E9D52C /* BirdTileSet.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9492457C2253BBB600E9D52C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9492457F2253BBB600E9D52C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		949245812253BBB600E9D52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		949245872253C6A100E9D52C /* BirdTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BirdTileSet.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				9492457C2253BBB600E9D52C /* Assets.xcassets */,
 				9492457E2253BBB600E9D52C /* LaunchScreen.storyboard */,
 				949245812253BBB600E9D52C /* Info.plist */,
+				949245872253C6A100E9D52C /* BirdTileSet.sks */,
 			);
 			path = BirdsClone;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				949245882253C6A100E9D52C /* BirdTileSet.sks in Resources */,
 				9492457B2253BBB400E9D52C /* Main.storyboard in Resources */,
 				949245722253BBB300E9D52C /* GameScene.sks in Resources */,
 				9492457D2253BBB600E9D52C /* Assets.xcassets in Resources */,
