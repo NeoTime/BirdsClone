@@ -43,8 +43,16 @@ class Block: SKSpriteNode {
         physicsBody?.categoryBitMask = PhysicsCategory.block
         physicsBody?.contactTestBitMask = PhysicsCategory.all
         physicsBody?.collisionBitMask = PhysicsCategory.all
-        
-        
+        }
+    
+    func impact(with force: Int) {
+        health -= force
+        print(health)
+        if health < 1 {
+            removeFromParent()
+        } else if health < damageThreshold {
+            color = UIColor.red
+        }
     }
     
 }
