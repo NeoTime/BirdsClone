@@ -19,6 +19,7 @@
 		949245922253E2E300E9D52C /* GameCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949245912253E2E300E9D52C /* GameCamera.swift */; };
 		949245942254183900E9D52C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949245932254183900E9D52C /* Configuration.swift */; };
 		9492459622541EC400E9D52C /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9492459522541EC400E9D52C /* Bird.swift */; };
+		94BBBD7D2256A84700656EC7 /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BBBD7C2256A84700656EC7 /* SKNode+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		949245912253E2E300E9D52C /* GameCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCamera.swift; sourceTree = "<group>"; };
 		949245932254183900E9D52C /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		9492459522541EC400E9D52C /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		94BBBD7C2256A84700656EC7 /* SKNode+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKNode+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		9492456E2253BBB300E9D52C /* BirdsClone */ = {
 			isa = PBXGroup;
 			children = (
+				94BBBD7B2256A6EF00656EC7 /* Extensions */,
 				949245902253E26600E9D52C /* CustomNodes */,
 				9492458F2253DBD200E9D52C /* TileSets */,
 				9492458E2253DB2F00E9D52C /* UI */,
@@ -131,6 +134,14 @@
 				9490FBBB2255237E00F4949E /* Block.swift */,
 			);
 			name = CustomNodes;
+			sourceTree = "<group>";
+		};
+		94BBBD7B2256A6EF00656EC7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				94BBBD7C2256A84700656EC7 /* SKNode+Extensions.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				949245762253BBB300E9D52C /* GameScene.swift in Sources */,
+				94BBBD7D2256A84700656EC7 /* SKNode+Extensions.swift in Sources */,
 				9490FBBC2255237E00F4949E /* Block.swift in Sources */,
 				949245942254183900E9D52C /* Configuration.swift in Sources */,
 				949245782253BBB400E9D52C /* GameViewController.swift in Sources */,
