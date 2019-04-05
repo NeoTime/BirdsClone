@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		9490FBBC2255237E00F4949E /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9490FBBB2255237E00F4949E /* Block.swift */; };
 		949245702253BBB300E9D52C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9492456F2253BBB300E9D52C /* AppDelegate.swift */; };
-		949245722253BBB300E9D52C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 949245712253BBB300E9D52C /* GameScene.sks */; };
+		949245722253BBB300E9D52C /* GameScene_1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 949245712253BBB300E9D52C /* GameScene_1.sks */; };
 		949245762253BBB300E9D52C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949245752253BBB300E9D52C /* GameScene.swift */; };
 		949245782253BBB400E9D52C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949245772253BBB400E9D52C /* GameViewController.swift */; };
 		9492457B2253BBB400E9D52C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949245792253BBB400E9D52C /* Main.storyboard */; };
@@ -20,13 +20,16 @@
 		949245942254183900E9D52C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949245932254183900E9D52C /* Configuration.swift */; };
 		9492459622541EC400E9D52C /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9492459522541EC400E9D52C /* Bird.swift */; };
 		94BBBD7D2256A84700656EC7 /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BBBD7C2256A84700656EC7 /* SKNode+Extensions.swift */; };
+		94BBBD7F2256B5BD00656EC7 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BBBD7E2256B5BD00656EC7 /* MenuScene.swift */; };
+		94BBBD812256B5FC00656EC7 /* LevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BBBD802256B5FC00656EC7 /* LevelScene.swift */; };
+		94BBBD832256C2C700656EC7 /* SpriteKitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BBBD822256C2C700656EC7 /* SpriteKitButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9490FBBB2255237E00F4949E /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 		9492456C2253BBB300E9D52C /* BirdsClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdsClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9492456F2253BBB300E9D52C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		949245712253BBB300E9D52C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		949245712253BBB300E9D52C /* GameScene_1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene_1.sks; sourceTree = "<group>"; };
 		949245752253BBB300E9D52C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		949245772253BBB400E9D52C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		9492457A2253BBB400E9D52C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,6 +41,9 @@
 		949245932254183900E9D52C /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		9492459522541EC400E9D52C /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
 		94BBBD7C2256A84700656EC7 /* SKNode+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKNode+Extensions.swift"; sourceTree = "<group>"; };
+		94BBBD7E2256B5BD00656EC7 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		94BBBD802256B5FC00656EC7 /* LevelScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelScene.swift; sourceTree = "<group>"; };
+		94BBBD822256C2C700656EC7 /* SpriteKitButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpriteKitButton.swift; path = "Birds 4/Birds/SpriteKitButton.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +108,10 @@
 		9492458C2253DA6D00E9D52C /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				949245712253BBB300E9D52C /* GameScene.sks */,
+				949245712253BBB300E9D52C /* GameScene_1.sks */,
 				949245752253BBB300E9D52C /* GameScene.swift */,
+				94BBBD7E2256B5BD00656EC7 /* MenuScene.swift */,
+				94BBBD802256B5FC00656EC7 /* LevelScene.swift */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -129,6 +137,7 @@
 		949245902253E26600E9D52C /* CustomNodes */ = {
 			isa = PBXGroup;
 			children = (
+				94BBBD822256C2C700656EC7 /* SpriteKitButton.swift */,
 				949245912253E2E300E9D52C /* GameCamera.swift */,
 				9492459522541EC400E9D52C /* Bird.swift */,
 				9490FBBB2255237E00F4949E /* Block.swift */,
@@ -204,7 +213,7 @@
 			files = (
 				949245882253C6A100E9D52C /* BirdTileSet.sks in Resources */,
 				9492457B2253BBB400E9D52C /* Main.storyboard in Resources */,
-				949245722253BBB300E9D52C /* GameScene.sks in Resources */,
+				949245722253BBB300E9D52C /* GameScene_1.sks in Resources */,
 				9492457D2253BBB600E9D52C /* Assets.xcassets in Resources */,
 				949245802253BBB600E9D52C /* LaunchScreen.storyboard in Resources */,
 			);
@@ -220,11 +229,14 @@
 				949245762253BBB300E9D52C /* GameScene.swift in Sources */,
 				94BBBD7D2256A84700656EC7 /* SKNode+Extensions.swift in Sources */,
 				9490FBBC2255237E00F4949E /* Block.swift in Sources */,
+				94BBBD7F2256B5BD00656EC7 /* MenuScene.swift in Sources */,
+				94BBBD832256C2C700656EC7 /* SpriteKitButton.swift in Sources */,
 				949245942254183900E9D52C /* Configuration.swift in Sources */,
 				949245782253BBB400E9D52C /* GameViewController.swift in Sources */,
 				949245922253E2E300E9D52C /* GameCamera.swift in Sources */,
 				9492459622541EC400E9D52C /* Bird.swift in Sources */,
 				949245702253BBB300E9D52C /* AppDelegate.swift in Sources */,
+				94BBBD812256B5FC00656EC7 /* LevelScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
